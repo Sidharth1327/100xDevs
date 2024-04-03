@@ -28,3 +28,22 @@ const DataFetcher = () => {
 };
 
 export default DataFetcher;
+
+//Below code shows how to use use effect hook where we are fetching todos
+
+/* useEffect(() => {
+    fetch("").then(async function (res) {
+    const json = await res.json();
+    setTodos(json.todos);
+  })
+},[]); */
+
+
+// AXIOS Syntax
+
+/* useEffect(() => {
+  axios.get("")
+    .then(function (response) {
+    setTodos(resposne.data.todos);
+  })
+},[]); */

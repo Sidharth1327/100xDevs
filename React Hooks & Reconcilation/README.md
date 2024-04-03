@@ -34,6 +34,12 @@ When the `key` prop is not provided or not unique within the list, React can't e
 
 <small> Some commonly used React Hooks are: useEffect, useMemo, useCallback,  useRef, useReducer, useContext, useLayoutEffect
 
+### Side Effects
+In the context of React, `side effects` refer to operations or behaviors that occur outside the scope of the typical component rendering process. These can include data fetching, subscriptions, manual DOM manipulations, and other actions that have an impact beyond rendering the user interface.
+
+Thus, "side effects" are the operations outside the usual rendering process, and "hooks," like **`useEffect`**, are mechanisms provided by React to handle these side effects in functional components. The **`useEffect`** hook allows you to incorporate side effects into your components in a clean and organized manner.
+
 1. UseEffect () 
 - useEffect is a React Hook used for performing side effects in functional components. It is often used for tasks such as data fetching, subscriptions, or manually changing the DOM. The useEffect hook accepts two arguments: a function that contains the code to execute, and an optional array of dependencies that determines when the effect should run.
 - useEffect is a powerful tool for managing side effects in React components, providing a clean way to handle asynchronous operations and component lifecycle events.
+- axios library make it easy to do fetch calls
