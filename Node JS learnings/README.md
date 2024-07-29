@@ -1,0 +1,2 @@
+- Google Chrome’s JS Engine is V8 - Open Source . JS - language for interacting with browsers. Pulled out V8 and embedded it with C++ ⇒ Node JS. Node JS is not a framework or a library, its a runtime environment for JS, by which we can run JS outside browsers, talk to native machine like file handling etc.
+-
