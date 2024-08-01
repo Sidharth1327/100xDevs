@@ -15,3 +15,6 @@
 
  myServer.listen(8000, ()=>console.log("server started")); */
  app.listen(8000, () => console.log("Server Started"));
+
+
+ console.log("Hi there , couldnt study anythign today since I was busy with editing")
